@@ -1,1 +1,27 @@
-/* General rules */
+*{
+    margin: 0;
+
+}
+header{
+    height: 94vh;
+    border: 1px solid #000;
+    background: lightpink;
+}
+nav{
+    background: lightgreen;
+    height: 50px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+     display: inline-block;
+}
+section img{
+    width: calc(100%/4);
+}
+.more-phone{
+    /* max-width: 90vw; */
+    display: flex;
+    grid: 1;
+}

@@ -5,23 +5,84 @@
 header{
     text-align: center;
     height: 96vh;
-    border: 1px solid #000;
+    border: 1px solid transparent;
     background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
 }
+header h1{
+    color:#fff;
+    font-size: 3rem;
+    /* font-family: Helvetica; */
+    font-family: sans-serif;
+}
+header p{
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 35px;
+    font-family: sans-serif;
+}
+header .story{
+    font-family: sans-serif;
+    color:#fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+header .story:hover{
+    text-decoration: underline;
+    
+}
 nav{
-    background: lightgreen;
-    height: 50px;
+    /* background: rgba(56, 56, 56, 0.534); */
+    /* background: rgba(95, 92, 92, 0.822); */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.616),#fff); */
+    background: linear-gradient(grey,#1a1a1ad7);
+    border: 2px solid rgba(0, 0, 0, .4);
     display: flex;
-      width: 80vw;
+      width: 65vw;
       margin: auto;
       margin-top: 75px;
       height: 40px;
+      align-items: center;
+      border-radius: 5px;
 }
 nav ul{
     list-style: none;
+    display: table;
+    padding-left: 0;
+    
 }
+
 nav ul li{
+    
      display: inline-block;
+     border-right: 1px solid rgba(0, 0, 0, .2);
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 20px;
+     padding-right: 20px;
+     background: linear-gradient( rgba(139, 137, 137, 0.1), rgba(0, 0, 0, .3));
+}
+nav ul li:hover{
+    background: rgba(0, 0, 0, .4);
+}
+
+
+nav ul li a{
+    /* border-right: 1px solid #000; */
+    /* border: 1px solid red; */
+    font-size: 20px;
+    text-decoration: none;
+     font:  "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    color:#fff;
+    
+    
+}
+input[name="search"]{
+    margin-left: 15px;
+    /* border-style: solid; */
+    border-radius: 10px;
+    border-color: #1a1a1a54;
+    width: 180px;
+    background: linear-gradient(grey,#555555d7);
 }
 .more-phone img{
     width: calc(100%/4);
@@ -36,7 +97,7 @@ nav ul li{
 
 /* Footer */
 footer{
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     font-size: 12px;
 }
 .links{
@@ -50,6 +111,7 @@ footer{
 .more-info ul li{
     display: inline-block;
 }
+
 .agreements{
     margin-top: 15px;
     margin-bottom: 30px;
@@ -59,4 +121,12 @@ footer{
     border: 1px solid #000; */
     width: 80vw;
     margin: auto;
+    color: grey;
+}
+.wrapper a{
+    text-decoration: none;
+    color:#08c;
+}
+.wrapper a:hover{
+    text-decoration: underline;
 }

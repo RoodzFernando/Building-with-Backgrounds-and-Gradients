@@ -11,7 +11,6 @@ header{
 header h1{
     color:#fff;
     font-size: 3rem;
-    /* font-family: Helvetica; */
     font-family: sans-serif;
 }
 header p{
@@ -31,9 +30,6 @@ header .story:hover{
     
 }
 nav{
-    /* background: rgba(56, 56, 56, 0.534); */
-    /* background: rgba(95, 92, 92, 0.822); */
-    /* background: linear-gradient(rgba(0, 0, 0, 0.616),#fff); */
     background: linear-gradient(grey,#1a1a1ad7);
     border: 2px solid rgba(0, 0, 0, .4);
     display: flex;
@@ -67,8 +63,6 @@ nav ul li:hover{
 
 
 nav ul li a{
-    /* border-right: 1px solid #000; */
-    /* border: 1px solid red; */
     font-size: 20px;
     text-decoration: none;
      font:  "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
@@ -78,7 +72,6 @@ nav ul li a{
 }
 input[name="search"]{
     margin-left: 15px;
-    /* border-style: solid; */
     border-radius: 10px;
     border-color: #1a1a1a54;
     width: 180px;
@@ -87,17 +80,13 @@ input[name="search"]{
 .more-phone img{
     width: calc(100%/4);
     cursor: pointer;
-    /* height: 220px; */
 }
 .more-phone{
-    /* max-width: 90vw; */
     display: flex;
     grid: 1;
 }
 
-/* Footer */
 footer{
-    /* border: 1px solid #000; */
     font-size: 12px;
 }
 .links{
@@ -117,8 +106,6 @@ footer{
     margin-bottom: 30px;
 }
 .wrapper{
-    /* background: lightseagreen;
-    border: 1px solid #000; */
     width: 80vw;
     margin: auto;
     color: grey;

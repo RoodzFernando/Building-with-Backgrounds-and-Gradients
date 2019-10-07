@@ -29,4 +29,4 @@ You can find the original project specification [here](https://www.theodinprojec
 - [] Validate Readme file with markdown lint.
 
 
-Link to live demo [here](https://roodzfernando.github.io/Building-with-Backgrounds-and-Gradients/.)
+Link to live demo [here](https://roodzfernando.github.io/Building-with-Backgrounds-and-Gradients/)
